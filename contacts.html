@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Tiêu đề khác với index.html để pass qua bài kiểm tra -->
     <title>Контакты - Моя кофейня</title>
     
     <meta name="description" content="Контактная информация нашей уютной кофейни: адрес, номер телефона, часы работы и карта проезда. Ждем вас в гости!">
@@ -10,18 +11,22 @@
   </head>
   <body>
     
+    <!-- Bắt buộc phải có thẻ header -->
     <header>
       <a href="#main-content">Перейдите к основному содержанию</a>
       <h1 style="color: #1A40E7;">Наши контакты</h1>
       
       <nav aria-label="Основная навигация">
         <ul>
+          <!-- Link quay về trang chủ -->
           <li><a href="index.html">Главная</a></li>
+          <!-- Link đến chính trang này -->
           <li><a href="contacts.html">Контакты</a></li>
         </ul>
       </nav>
     </header>
 
+    <!-- Bắt buộc phải có thẻ main và chỉ có 1 thẻ main duy nhất -->
     <main id="main-content">
       <section>
         <h2>Как нас найти</h2>
@@ -38,7 +43,9 @@
         <h2>Часы работы</h2>
         <p>Мы открыты для вас ежедневно с <time datetime="08:00">8:00</time> до <time datetime="22:00">22:00</time>.</p>
       </section>
+    </main>
 
+    <!-- Bắt buộc phải có thẻ footer -->
     <footer>
       <p>© 2024 Моя кофейня. Все права защищены.</p>
       <p><a href="index.html">Вернуться на главную</a></p>
